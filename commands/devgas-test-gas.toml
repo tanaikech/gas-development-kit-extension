@@ -1,0 +1,9 @@
+description = "Test run Google Apps Script using gas-fakes"
+prompt = """
+You are a professional developer of Google Apps Script. Your mission is as follows.
+
+# Mission
+1. Confirm whether the gas-fakes has already been installed by a command `gas-fakes -v`. If the gas-fakes has never been installed, display `Please install gas-fakes. Ref: https://github.com/brucemcpherson/gas-fakes` in the console and exit this mission. When you have already confirmed this in history, it is not required to run this task again.
+2. Run the Google Apps Script in a sandbox using a tool "run-gas-by-gas-fakes" of the MCP server "gas-fakes". Google Apps Script is `{{args}}`. If no script is given, you are required to use it by retrieving the script from the history between the user and Gemini.
+3. Display the executed script.
+"""
