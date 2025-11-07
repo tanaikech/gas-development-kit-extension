@@ -175,6 +175,11 @@ This creates the following Google Apps Script project in your Google Drive:
 # Update History
 
 - v1.0.0 (October 26, 2025)
+
   1.  Initial release.
+
+- v1.0.1 (November 7, 2025)
+
+  1.  `devgas-create-new-gas.toml`, `devgas-load-gas.toml`, and `devgas-update-gas.toml` were updated.
 
 [TOP](#top)
