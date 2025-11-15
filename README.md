@@ -52,6 +52,28 @@ Install [gas-fakes](https://github.com/brucemcpherson/gas-fakes), the command-li
 npm install -g @mcpher/gas-fakes
 ```
 
+### Authorize
+
+Alternatively, you can use the `gas-fakes` command-line interface (CLI) to assist with the setup. Before you begin, please have your Google Cloud Project ID ready.
+
+First, create a `.env` file to store your project configuration:
+
+```bash
+gas-fakes init
+```
+
+Next, authorize the tool. This command will guide you through the process of logging into your Google account and setting up the necessary credentials:
+
+```bash
+gas-fakes auth
+```
+
+If you need to enable the required Google APIs for your project, you can do so with the following command. This will ensure that all necessary services are accessible. Please check how to use this command using the help message as follows.
+
+```bash
+gas-fakes enableAPIs --help
+```
+
 For authorization instructions, see the [Getting Started guide](https://github.com/brucemcpherson/gas-fakes/blob/main/GETTING_STARTED.md).
 
 ## 4. Install gas-development-kit-extension
